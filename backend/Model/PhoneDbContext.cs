@@ -9,5 +9,5 @@ public class PhoneDbContext: DbContext
         
     }
     
-    public DbSet<Phone> Phones { get; set; }
+    public DbSet<Phone> phones { get; set; }
 }
