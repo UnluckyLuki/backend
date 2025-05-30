@@ -12,5 +12,5 @@ public class Phone
     [Required, MaxLength(9) , MinLength(9)]
     public string phoneNumber { get; set; }
     [Required, MaxLength(15)]
-    public string phoneType { get; set; }
+    public string phoneName { get; set; }
 }
