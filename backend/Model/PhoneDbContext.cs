@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-namespace backend.Properties.Model;
+namespace backend.Model;
 
 public class PhoneDbContext: DbContext
 {
